@@ -24,3 +24,13 @@ def rep(func,x):
 #don't know why but last function doesn't #
 #pls help#
       
+# You can call rep function like this
+func_reprep = rep(onesec, 10)
+func_reprep()  # use () for call function work
+
+# Or call function on funciton rep 
+# def rep(func,x):
+#    def reprep():
+#       for i in range(x):
+#          func()
+#    return reprep()
